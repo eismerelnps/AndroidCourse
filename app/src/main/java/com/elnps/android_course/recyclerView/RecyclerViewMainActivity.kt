@@ -14,6 +14,7 @@ class RecyclerViewMainActivity : AppCompatActivity() {
         initRecyclerView()
     }
 
+
     private fun initRecyclerView() {
         val recyclerView = findViewById<RecyclerView>(R.id.recyclerSuperHero)
         recyclerView.layoutManager = LinearLayoutManager(this)
